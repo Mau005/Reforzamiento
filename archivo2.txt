@@ -1,0 +1,5 @@
+
+Configuracion
+usuario = Mau
+password = ICLcreyo
+correo = mpino1701@gmail.com
