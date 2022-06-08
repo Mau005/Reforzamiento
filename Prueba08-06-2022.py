@@ -195,7 +195,7 @@ while True:
 
         contador = 0
         for elementos in mantenimientos:
-            if buscar in elementos:
+            if buscar in str(elementos):
                 print("""
                         patente: {}
                         Fecha Ingreso: {}
