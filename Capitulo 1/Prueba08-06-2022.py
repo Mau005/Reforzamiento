@@ -193,16 +193,6 @@ while True:
     elif opcion == "6":
         buscar = input("Indiqueme la observacion: ")
 
-        contador = 0
-        for elementos in mantenimientos:
-            if buscar in str(elementos):
-                print("""
-                        patente: {}
-                        Fecha Ingreso: {}
-                        Observaciones: {}
-                        """.format(mantenimientos[contador - 2], mantenimientos[contador- 1], mantenimientos[contador]))
-            
-            contador += 1
         input("Precione una tecla para continuar ...")
         os.system("cls")
     elif opcion == "7":
