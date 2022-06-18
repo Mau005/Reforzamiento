@@ -7,7 +7,6 @@ class Persona:
         self.apellido = apellido
         self.edad = edad
 
-
     def get_nombre(self):
         return self.nombre
 
