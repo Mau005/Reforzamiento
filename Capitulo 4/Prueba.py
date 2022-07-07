@@ -21,7 +21,7 @@ def RegistrarUsuarios(key,value):
         value (dict): diccionario con los valores de {"contraseña": None, "edad": None, "nombre": None}
     """
     #"nombre":{"contraseña": None, "edad": None, "nombre": None}
-    usuarios.update({key,value})
+    usuarios.update({key:value})
     
 def SolicitarDatos(key,tipoKey):
     """Methodo que recoje los datos de un usuario
